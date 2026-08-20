@@ -49,3 +49,10 @@ Gmail / Automatizaciones
 <p align="center"> <img src="part5.png" width="250"> </p>
 7. Envío de menaje: el código que lo acompaña es para asegurarse que el output del mensaje siempre sea el adecuado para evitar errores, por ejemplo, al principio ocasionaba errores porque estaba entregando un output de tipo MarkDown, lo que impedía que el Workflow terminara, y se quedara atrapado en un error.
 <p align="center"> <img src="part6.png" width="250"> </p>
+
+7. Acceso de coordinación: si el usuario tiene acceso de coordinación entonces si se puede ejecutar los reportes mediante un nodo de condicional if, luego según la documentación del nodo de Summarize, tenemos que utilizar una base de datos, y luego agregar los valores por los cuales uno quiere obtener el resumen, agregue un filtro para poder extraer los datos específicamente de la semana, y luego se envío un mensaje con el contenido: 
+<img width="561" height="151" alt="image" src="https://github.com/user-attachments/assets/5f811189-39ab-4c56-b030-866c47144198" />
+
+
+
+
